@@ -4,9 +4,9 @@
 
 /**
  *
- *  * main - Point where execution takes place
+ *  * main - Entry point for print code
  *
- *   * Return: 0
+ *   * Return: Always 0 (Success)
  *
  *    */
 
