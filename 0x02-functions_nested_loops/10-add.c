@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * mian - Entry point
+ * add - the sum of two numbers
+ * @a: right operand
+ * @b: left operand
  * Return: 0
  */
 
