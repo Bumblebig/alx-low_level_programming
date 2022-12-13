@@ -1,8 +1,10 @@
+#include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main - check the code
+ * print_last_digit - prints the last digit of a number
+ * @n: the digit whose last digit will be printed
  * Return: 0
  */
 
