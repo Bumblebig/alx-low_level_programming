@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * main - check the cod
+ * print_sign - prints the sign
+ * @n: the number to be checked
  * Return: Always 0
  */
 
