@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * add - the sum of two numbers
- * @a: right operand
- * @b: left operand
+ * add - adds two numbers
+ * @num1: right operand
+ * @num2: left operand
  * Return: 0
  */
 
