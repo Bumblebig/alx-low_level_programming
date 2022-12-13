@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main -Entry point
+ * print_alphabet - Entry point to print alphabet
  *
  * Return: Always 0
  */
