@@ -7,9 +7,7 @@
 
 int main(void)
 {
-
 	unsigned long tot, a, b, c, ans;
-	
 	a = ans = 0;
 	b = 1;
 
@@ -18,7 +16,6 @@ int main(void)
 		c = a + b;
 		a = b;
 		b = c;
-		
 		if (c % 2 == 0 && c < 4000000)
 		{
 			ans += c;
