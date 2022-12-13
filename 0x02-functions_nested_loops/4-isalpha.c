@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _isalpha - checks the character for an alphabet
+ * @c: the character to be checked
  * Return: Always 0
  */
 
