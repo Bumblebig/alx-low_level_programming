@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints fibonacci numbers
+ * main - Prints fibonacci number0s
  * Return: 0
  */
 
@@ -17,8 +17,7 @@ int main(void)
 
 		ans = a + b;
 		printf("%lu", ans);
-		
-		a = b;
+				a = b;
 		b = ans;
 
 		if (tot == 49)
@@ -26,7 +25,6 @@ int main(void)
 
 		else
 			printf(", ");
-		
 	}
 	return (0);
 }
