@@ -8,6 +8,7 @@
 int main(void)
 {
 	unsigned long tot, a, b, c, ans;
+
 	a = ans = 0;
 	b = 1;
 
