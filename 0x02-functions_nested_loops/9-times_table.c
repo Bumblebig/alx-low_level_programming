@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * times_table - prints the times table of an integer starting with zero
  * return: 0
  */
 
