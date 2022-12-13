@@ -15,11 +15,11 @@ int main(void)
 	for (tot = 0; tot < 50; tot++)
 	{
 
-		ans = fib1 + fib2;
+		ans = a + b;
 		printf("%lu", sum);
 		
-		fib1 = fib2;
-		fib2 = ans;
+		a = b;
+		b = ans;
 
 		if (tot == 49)
 			printf("\n");
