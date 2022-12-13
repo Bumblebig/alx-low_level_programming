@@ -46,8 +46,10 @@ int main(void)
 		else
 			printf("%lu0%lu", c, f);
 		if (count != 98)
+		{
 			printf(", ");
 			count++;
+		}
 	}
 
 	putchar('\n');
