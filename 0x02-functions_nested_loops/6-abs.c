@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * _abs -  computes the absolute value of an integer
+ * @n: the number whose absolute value is computed
  * Return: 0
  */
 
