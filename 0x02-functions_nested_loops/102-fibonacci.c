@@ -15,13 +15,13 @@ int main(void)
 	for (tot = 0; tot < 50; tot++)
 	{
 
-		ans = a + b;
-		pklrintf("%lu", ans);
+		sum = fib1 + fib2;
+		printf("%lu", sum);
 		
-		a = b;
-		b = ans;
+		fib1 = fib2;
+		fib2 = sum;
 
-		if (tot == 49)
+		if (count == 49)
 			printf("\n");
 
 		else
