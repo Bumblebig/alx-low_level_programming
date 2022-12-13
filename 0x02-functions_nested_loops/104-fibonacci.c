@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return; Always 0
+ * main - print the first 98 fibonacci numbers.
+ * Return; Nothing.
  */
 
 int main(void)
@@ -33,8 +33,8 @@ int main(void)
 	while (count <= 98)
 	{
 		next = (d + e) / 1000;
-		f = (d + e) -next * 1000;
-		c = (a + b) +next;
+		f = (d + e) - next * 1000;
+		c = (a + b) + next;
 		d = e;
 		e = f;
 		a = b;
@@ -45,11 +45,9 @@ int main(void)
 
 		else
 			printf("%lu0%lu", c, f);
-		
 		if (count != 98)
 			printf(", ");
-
-		count++;
+			count++;
 	}
 
 	putchar('\n');
