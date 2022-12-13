@@ -16,7 +16,7 @@ int main(void)
 	{
 
 		ans = a + b;
-		printf("%lu", sum);
+		printf("%lu", ans);
 		
 		a = b;
 		b = ans;
