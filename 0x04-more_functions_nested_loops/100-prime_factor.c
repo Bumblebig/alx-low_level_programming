@@ -3,14 +3,9 @@
 #include <math.h>
 
 /**
- *
- * * main -  program that finds and prints the largest prime factor of a number
- *
- * * Return: Always 0.
- *
- * */
-
-
+ * main -  prints largest prime factor of a number
+ * Return: Always 0.
+ */
 
 int main(void)
 {
