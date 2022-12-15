@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main - prints number
@@ -12,8 +13,10 @@ int main(void)
 
 	while (n <= 100)
 	{
-		if (n % 3 == 0 && h\n % 5 == 0)
+		if (n % 3 == 0 && n % 5 == 0)
+		{
 			printf("FizzBuzz ");
+		}
 		else if (n % 5 == 0)
 		{
 			if (n == 100)
