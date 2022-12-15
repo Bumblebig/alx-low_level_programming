@@ -8,33 +8,21 @@
 
 void print_number(int n)
 {
-	unsigned int num1, num2;
-	int div;
-	int dig = 1;
+	int divisor;
+	char digit, significant_zero = 0;
 
 	if (n < 0)
-	{
-		n = n * -1;
 		_putchar('-');
-	}
 
-	num1 = n;
-	num2 = num2;
-
-	if (num1 > 9)
+	for (divisor = 1000000000; divisor != 0; divisor /= 10)
 	{
-		while (num1 >= 10)
-		{
-			dig = dig * 10;
-			num1 = num1 / 10;
-		}
+		digit = n / divisor;
+		digit = digit < 0 ? -digit : digit;
+		n %= divisor;
+		if (!digit && !significant_zero && divisor != 1)
+			continue;
 
-		_putchar((num2 / dig) + '0');
-		dig = dig / 10;
-		
-		for (div = dig; div >= 1; div = div / 10)
-			_putchar((num2 / div) % 10 + '0');
+		significant_zero = significant_zero || digit != 0;
+		_putchar(digit + '0');
 	}
-	else
-		_putchar(num1 + '0');
 }
