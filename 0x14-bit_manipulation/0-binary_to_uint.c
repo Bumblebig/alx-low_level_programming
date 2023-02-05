@@ -6,6 +6,7 @@
  * @p: power
  * Return: b the power of p
  */
+
 int powX(int b, int p)
 {
 	int prod = 1;
@@ -23,6 +24,7 @@ int powX(int b, int p)
  * @s:string
  * Return: lenght of s
  */
+
 int _len(const char *s)
 {
 	int len = 0;
@@ -34,11 +36,13 @@ int _len(const char *s)
 	}
 	return (len);
 }
+
 /**
  * binary_to_uint - converts a binary number to an unsigned int
  * @b: input string
  * Return: unsigned decimal conversion of input is NULL
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	int power = _len(b) - 1;
